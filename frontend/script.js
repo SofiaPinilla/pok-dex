@@ -8,11 +8,17 @@ const getPokemons = (page) => {
             pokemonsDiv.innerHTML = '';
             pokemons.forEach(pokemon => {
                 pokemonsDiv.innerHTML += `
-        <div class="pokemon">
-            <h2>${pokemon.name}</h2>
-            <h3>${pokemon.number}</h3>
-            <img src="${pokemon.image_path}" alt="">
-        </div>`
+                <div class="card  mb-3 col-lg-3 col-xs-12 col-md-6">
+                <div class="pokemon">
+                <div class="card-body" >
+                <h3 class="card-header text-primary" >${pokemon.name}</h3>
+                <h5 class="card-title"  >${pokemon.number}</h5>
+                <img style="height: 200px; width: 100%; display: block;" src="${pokemon.image_path}" alt="Card image">
+                </div>
+                </div>
+                </div>
+                 `
+
             });
 
         })

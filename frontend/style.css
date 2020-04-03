@@ -1,0 +1,14 @@
+.pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.btn {
+    margin: 10px;
+}
