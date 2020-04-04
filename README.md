@@ -4,7 +4,7 @@ Este proyecto es una api de Pokémon, que consiste en una pokédex donde puedes 
 ## Tecnologías que he utilizado 🛠️
 
 >Mi api esta creada con HTML5 , CSS3,Layout( Flex ),Bootstrap, Responsive Design,
-JavaScript, Fetch,Node, Express, Sequelize y Mysql Workbench.
+JavaScript,Axios, Fetch,Node, Express, Sequelize y Mysql Workbench.
 
  ---
 
